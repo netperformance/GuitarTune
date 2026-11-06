@@ -1,0 +1,23 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'de.aaron'
+version = '1.0.0'
+
+android {
+  namespace "de.aaron.pitchdetector"
+  defaultConfig {
+    versionCode 1
+    versionName '1.0.0'
+  }
+  testOptions {
+    unitTests.all { it.testLogging { events 'passed', 'failed'; showStandardStreams true } }
+  }
+}
+
+dependencies {
+  implementation 'com.facebook.react:react-android'
+  testImplementation 'junit:junit:4.13.2'
+}
