@@ -17,11 +17,15 @@
 </p>
 
 <p align="center">
-  <img src="docs/images/screenshots-tuning.png" width="100%" alt="Low E string too low with an arrow on the tuning peg, A string in tune while the ring fills up, and the light mode with three strings already in tune">
+  <img src="docs/images/screenshots-tuning.png" width="100%" alt="Waiting for the low E string, the low E string too low with an arrow on the tuning peg, and the low E string in tune while the ring fills up">
 </p>
 
 <p align="center">
-  <img src="docs/images/screenshots-settings.png" width="66%" alt="Settings with language and appearance, and the screen after all six strings are in tune">
+  <img src="docs/images/screenshots-flow.png" width="100%" alt="A string a bit low after the low E string is done, all six strings in tune, and the light mode">
+</p>
+
+<p align="center">
+  <img src="docs/images/screenshots-settings.png" width="66%" alt="Explanation of the microphone at the first start, and the settings with language, appearance and microphone source">
 </p>
 
 ## English
