@@ -1,6 +1,6 @@
 # Guitar Tune: Plan
 
-Stand 06.11.2026: Version 1.0.1 gebaut (apk/GuitarTune-1.0.1.apk), neues Icon: flaches weisses Plektrum auf rotem Grund ("Schlicht, gross"). Version 1.0.0 mit dem alten Icon (Kopfplatte). Oberflaeche Variante E mit Schriftzug 6h (Caveat), Tonerkennung nach research/Recherche_Tonerkennung.md. Auf Aarons Handy mit seiner Gitarre geprueft: alle sechs Saiten gestimmt, Gegenprobe mit der App GuitarTuna ergab ebenfalls "stimmt".
+Stand 07.11.2026: Version 1.0.2 gebaut (apk/GuitarTune-1.0.2.apk): Balken aussen hellrot, daneben orange, Mitte gruen. Version 1.0.1: neues Icon: flaches weisses Plektrum auf rotem Grund ("Schlicht, gross"). Version 1.0.0 mit dem alten Icon (Kopfplatte). Oberflaeche Variante E mit Schriftzug 6h (Caveat), Tonerkennung nach research/Recherche_Tonerkennung.md. Auf Aarons Handy mit seiner Gitarre geprueft: alle sechs Saiten gestimmt, Gegenprobe mit der App GuitarTuna ergab ebenfalls "stimmt".
 
 ## Entscheidungen
 - Name: Guitar Tune, Paket de.aaron.guitartune

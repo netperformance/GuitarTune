@@ -2,7 +2,7 @@
   "expo": {
     "name": "Guitar Tune",
     "slug": "guitartune",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -12,7 +12,7 @@
     ],
     "android": {
       "package": "de.aaron.guitartune",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "backgroundColor": "#b8242b",
         "foregroundImage": "./assets/android-icon-foreground.png",

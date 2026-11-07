@@ -22,6 +22,8 @@ export function TuneBar({ cents, color }: { cents: number | null; color: string 
   return (
     <Svg width="100%" height={74} viewBox="0 0 360 74">
       <Rect x={30} y={30} width={300} height={14} rx={7} fill={c.surface} />
+      <Rect x={30} y={30} width={300} height={14} rx={7} fill={c.farBand} />
+      <Rect x={x(-15)} y={30} width={x(15) - x(-15)} height={14} fill={c.surface} />
       <Rect x={x(-15)} y={30} width={x(15) - x(-15)} height={14} fill={c.nearBand} />
       <Rect x={x(-5)} y={26} width={x(5) - x(-5)} height={22} rx={4} fill={c.zone.ok} />
       <SvgText x={30} y={68} fontFamily="sans-serif" fontSize={12.5} fill={c.text2}>

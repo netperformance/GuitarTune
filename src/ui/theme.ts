@@ -24,6 +24,8 @@ export interface Palette {
   onZone: string
   /** Gelber Bereich neben dem Ziel im Balken */
   nearBand: string
+  /** Hellroter Bereich außen im Balken (weit daneben) */
+  farBand: string
 }
 
 export const dark: Palette = {
@@ -41,7 +43,8 @@ export const dark: Palette = {
   ripple: 'rgba(255,255,255,0.1)',
   zone: { wait: '#5aa9ff', far: '#ff6b5b', near: '#f2a93b', ok: '#3fcf8e' },
   onZone: '#141008',
-  nearBand: 'rgba(242,169,59,0.4)',
+  nearBand: 'rgba(242,169,59,0.75)',
+  farBand: 'rgba(255,107,91,0.58)',
 }
 
 export const light: Palette = {
@@ -59,7 +62,8 @@ export const light: Palette = {
   ripple: 'rgba(0,0,0,0.08)',
   zone: { wait: '#2f7fe0', far: '#e0483a', near: '#d9820f', ok: '#15a46a' },
   onZone: '#ffffff',
-  nearBand: 'rgba(217,130,15,0.35)',
+  nearBand: 'rgba(217,130,15,0.55)',
+  farBand: 'rgba(224,72,58,0.38)',
 }
 
 export const ThemeContext = createContext<Palette>(dark)
